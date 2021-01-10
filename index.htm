@@ -5,6 +5,40 @@
 <title>LOVE TEA</title>
 <meta name="description" content="LOVE TEA代購商">
 <link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<style type="text/css">
+	p{
+	color:blank;
+	margin:5px;
+	cursor:pointer;
+}
+    p:hover{
+    background:green;
+}
+.ddd{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background: rgba(50,0,0,0.5);
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	}
+.remove{
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 10;
+	display: flex;
+	justify-content:right;
+	align-items:right;
+	}
+    </style>
 </head>
 
 <body>
@@ -14,7 +48,9 @@
 <ul>
 <li><a href="#profile">品牌介紹</a></li>
 <li><a href="#concert">營業商品</a></li>
-<li><a href="https://yun0331.github.io/" target="_blank">特賣商品</a></li>
+<li><a href="#jquery">特賣商品</a></li>
+<li><a href="https://yicing629.wixsite.com/website-1" target="_blank">一頁式網站</a></li>
+<li><a href="http://120.105.150.46/hakkaonline/u0958022" target="_blank">電子商城</a></li>
 <li><a href="https://yun0331.github.io/" target="_blank">聯絡方式</a></li>
 </ul>
 </nav>
@@ -31,11 +67,31 @@
 <p><h2>天仁用心 讓您放心</h2></p>
 <p><h3>天仁茗茶累積60餘年的製茶工藝，以「天然、健康、人情味」做為經營理念，並以「安心、信賴、滿足」做為品質暨食品安全政策，期能提供給每一位貴賓安心且值得信賴的商品與服務。</h3></p>
 
+<article id="jquery">
+<div class="inner">
+<h1>特賣商品</h1>
+
+<p>點這裡R點R點R</p>
+ <div class="ddd">
+    	<img src="14.jpg" width="1200" height="800">
+   </div>
+    <div class="remove">
+        <img src="23.jpg" width="80" height="80" >
+    </div>
+
+    <script type="text/javascript">
+    	$('p').click(function(){
+    	$('.ddd').slideToggle();
+        $('.remove').slideToggle();
+    	});
+        $('.remove').click(function(){
+    	$('.ddd').slideToggle();
+        $('.remove').slideToggle();
+    	});
+    </script>
 <table>
-<tr>
 <article id="concert">
 <div class="inner"><h1>營業商品</h1>
-</tr>
 <table class="cinereousTable">
 <thead>
 <tr>
