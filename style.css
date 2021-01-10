@@ -1,6 +1,6 @@
 /* body */
 body {
-    background-color: #8CFF8C;
+    background-color: #8CFF8C; 
     margin: 0;
 }
 
@@ -118,7 +118,7 @@ table.cinereousTable tfoot td {
 }
 /* 回頁首 */
 .pagetop {
-    text-align: right;
+    text-align: center;
 }
 
 /* 著作權 */
